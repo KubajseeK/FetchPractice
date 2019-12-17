@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Parcel Sandbox</title>
+	<meta charset="UTF-8" />
+</head>
+
+<body>
+	<div>hello</div>
+	<script>
+async function getName() {
+const response = await fetch('https://swapi.co/api/people/1/');
+const myJson = await response.json();
+console.log(myJson.name);
+document.write(myJson.name);
+}
+getName();
+</script>
+</body>
+
+</html>

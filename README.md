@@ -1,2 +1,0 @@
-# FetchPractice
-Created with CodeSandbox
